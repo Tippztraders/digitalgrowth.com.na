@@ -47,3 +47,45 @@ html, body {
   color: #fff;
   margin: 5px 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================
+  HAPPY IMAGE
+========================== */
+.happy-image {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.happy-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.happy-image .badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 74, 173, 0.8);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+/* end of HAPPY */
+
+
