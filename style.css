@@ -128,3 +128,136 @@ html, body {
 
 
 
+
+
+
+/* ==================
+   PAYDAY LOANS 
+====================== */
+.payday {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  background: #ffffff;
+}
+
+.payday h2 {
+  font-size: 2rem;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.payday .interest {
+  font-size: 1.2rem;
+  color: #ff4c4c;
+  margin-bottom: 20px;
+}
+
+.payday hr {
+  width: 90%;
+  margin: 30px auto;
+  height: 2px;
+  border: none;
+  background-color: #004aad; /* solid clean blue */
+  border-radius: 1px;        /* slight rounding for modern feel */
+  box-shadow: none;          /* remove glow completely */
+}
+
+
+.payday .docs-title {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: #004aad;
+}
+
+.payday .docs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.payday .docs-list li {
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: left;
+  padding-left: 25px;
+  position: relative;
+}
+
+.payday .docs-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #004aad;
+}
+/* end of PAYDAY LOANS */
+
+
+
+
+
+
+
+
+
+
+/* ==========================
+   HOW IT WORKS
+========================== */
+.how-it-works {
+  background: #fff;
+  color: #111;
+  padding: 3em 0;               /* vertical padding only for full width */
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.how-it-works-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.how-it-works .docs-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+/* List styling */
+.how-it-works .docs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: li;
+}
+
+.how-it-works .docs-list li {
+  position: relative;
+  margin-bottom: 2em;
+  padding-left: 70px; /* space for number circle */
+  font-size: 1.2rem;
+  opacity: 1;          /* always visible */
+}
+
+/* Number circle */
+.how-it-works .docs-list li::before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #1E90FF;  /* blue ring */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1E90FF;
+  background: rgba(30,144,255,0.1); /* faint fill */
+}
+/* end of How It Works */
