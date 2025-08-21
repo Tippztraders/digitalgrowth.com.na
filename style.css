@@ -89,3 +89,56 @@ html, body {
 /* end of HAPPY */
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================
+   FAST SECTION is for the Orange Button
+========================== */
+.fast {
+  width: 100%;
+  text-align: center;
+  padding: 40px 16px;
+  background: #f0f4f8; /* light background for contrast */
+}
+
+.fast .subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+.fast .btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #004aad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* end of FAST SECTION is for the Orange Button */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
