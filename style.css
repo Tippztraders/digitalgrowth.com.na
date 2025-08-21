@@ -277,6 +277,92 @@ html, body {
 
 
 
+
+/* ==========================
+   WHY CHOOSE US
+========================== */
+.why-choose-us {
+  width: 100%;
+  text-align: center;      /* keeps h2 centered */
+  padding: 16px 0;         /* your full-width padding */
+}
+
+/* ==========================
+   WHY CHOOSE US SECTION
+========================== */
+.why-choose-us {
+  background: #fff;
+  width: 100%;
+  padding: 16px;                /* your request */
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  font-weight: 750;
+  margin-bottom: 2em;
+  color: #000;
+  text-align: center;           /* keep title centered */
+}
+
+.why-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  max-width: 1200px;
+  margin: 0 auto;               /* centers the whole row */
+}
+
+.why-card {
+  background: #f5f7fa;
+  border-radius: 12px;
+  padding: 2em 1.5em;
+  flex: 1 1 220px;
+  max-width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.why-card .icon {
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
+
+.why-card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+.why-card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+/*end of WHY CHOOSE US */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================
    LOAN CALCULATOR 
 ========================== */
