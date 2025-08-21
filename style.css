@@ -56,9 +56,6 @@ html, body {
 
 
 
-
-
-
 /* ==========================
   HAPPY IMAGE
 ========================== */
@@ -97,16 +94,13 @@ html, body {
 
 
 
-
-
-
 /* =====================================
    FAST SECTION is for the Orange Button
 ========================== */
 .fast {
   width: 100%;
   text-align: center;
-  padding: 40px 16px;
+  padding: 40px 0px;
   background: #f0f4f8; /* light background for contrast */
 }
 
@@ -127,14 +121,6 @@ html, body {
   font-weight: bold;
 }
 /* end of FAST SECTION is for the Orange Button */
-
-
-
-
-
-
-
-
 
 
 
