@@ -5,49 +5,21 @@ html, body {
 }
 
 /* HEADER */
+/* HEADER */
 .hero-header {
   position: relative;
   width: 100%;
-  height: 300px;          /* give the header a fixed or responsive height */
-  text-align: center;
+  height: 300px;      /* adjust height or use vh for responsive */
   overflow: hidden;
 }
 
 .hero-header .header-bg {
-  position: absolute;     /* background stays behind */
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;      /* image fills header area */
-  z-index: -1;            /* push image behind content */
-}
-
-.hero-header .container {
-  position: relative;     /* sits normally, centered inside */
-  top: 50%;
-  transform: translateY(-50%); /* vertical centering */
-}
-
-.hero-header .logo {
-  max-width: 200px;
-  width: 50%;
-  height: auto;
+  object-fit: cover;  /* makes sure image fills header */
   display: block;
-  margin: 0 auto 10px;
 }
-
-.hero-header .company-name {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0;
-}
-
-.hero-header .tagline {
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 5px 0 0;
-}
+/* end of Header */
 
 
 
