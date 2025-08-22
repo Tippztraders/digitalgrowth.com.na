@@ -463,3 +463,35 @@ html, body {
 
 
 
+
+
+/* ==========================
+   CONTACT SECTION
+========================== */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin: 8px 0;
+  line-height: 1.8;
+}
+
+/* end of CONTACT */
+
+
+
+
+
+
