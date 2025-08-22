@@ -30,6 +30,8 @@ html, body {
 
 
 
+
+
 /* ==========================
   HAPPY IMAGE
 ========================== */
@@ -261,6 +263,18 @@ html, body {
   padding: 16px 0;         /* your full-width padding */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================
    WHY CHOOSE US SECTION
 ========================== */
@@ -437,6 +451,9 @@ html, body {
 
 
 
+
+
+
 /* ==========================
    CONTACT SECTION
 ========================== */
@@ -469,6 +486,46 @@ html, body {
 
 
 
+
+/* FOOTER */
+.site-footer {
+  background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+  border-top-left-radius: 50% 20px;
+  border-top-right-radius: 50% 20px;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.site-footer .footer-top {
+  margin-bottom: 15px;
+}
+
+.back-to-top {
+  color: #555;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cta-btn {
+  background: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  margin-top: 15px;
+  color: #666;
+}
+
+
+/* end of Footer */
 
 
 
