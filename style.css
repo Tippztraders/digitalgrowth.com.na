@@ -5,7 +5,6 @@ html, body {
 }
 
 /* HEADER */
-/* HEADER */
 .hero-header {
   position: relative;
   width: 100%;
@@ -19,6 +18,7 @@ html, body {
   object-fit: cover;  /* makes sure image fills header */
   display: block;
 }
+
 /* end of Header */
 
 
