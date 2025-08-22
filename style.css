@@ -1,6 +1,3 @@
-/* ==========================
-   GLOBAL RESET
-========================== */
 html, body {
   margin: 0;
   padding: 0;
@@ -11,19 +8,25 @@ html, body {
 .hero-header {
   position: relative;
   width: 100%;
-  height: 300px; /* set header height */
+  height: 300px;          /* give the header a fixed or responsive height */
   text-align: center;
   overflow: hidden;
-  background: url('backgroundhero-2.png') center/cover no-repeat; /* background image */
+}
+
+.hero-header .header-bg {
+  position: absolute;     /* background stays behind */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* image fills header area */
+  z-index: -1;            /* push image behind content */
 }
 
 .hero-header .container {
-  position: absolute;
+  position: relative;     /* sits normally, centered inside */
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%; /* optional: limit container width */
-  max-width: 600px;
+  transform: translateY(-50%); /* vertical centering */
 }
 
 .hero-header .logo {
@@ -45,6 +48,7 @@ html, body {
   color: #fff;
   margin: 5px 0 0;
 }
+
 
 
 
