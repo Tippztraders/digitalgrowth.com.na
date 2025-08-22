@@ -11,14 +11,10 @@ html, body {
 .hero-header {
   position: relative;
   width: 100%;
+  height: 300px; /* set header height */
   text-align: center;
   overflow: hidden;
-}
-
-.hero-header .header-bg {
-  width: 100%;
-  height: 300px;        /* adjust as needed */
-  object-fit: cover;    /* cover entire header area */
+  background: url('backgroundhero-2.png') center/cover no-repeat; /* background image */
 }
 
 .hero-header .container {
@@ -26,6 +22,8 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90%; /* optional: limit container width */
+  max-width: 600px;
 }
 
 .hero-header .logo {
