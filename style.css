@@ -487,6 +487,54 @@ html, body {
 
 
 
+
+/* Apply Now Button */
+.cta-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff7a18, #ffb347); /* 2-gradient orange */
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+/* Center container */
+.cta-btn-container {
+  text-align: center;
+  padding-bottom: 20px; /* lift button above footer curve */
+}
+
+/* Hover effect */
+.cta-btn:hover {
+  background: linear-gradient(135deg, #ff944d, #ffd699); /* lighter orange gradient */
+  transform: translateY(-2px); /* subtle lift */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* end of APPLY NOW BUTTON */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 .site-footer {
   background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
@@ -502,21 +550,7 @@ html, body {
   margin-bottom: 15px;
 }
 
-.back-to-top {
-  color: #555;
-  margin-right: 20px;
-  text-decoration: none;
-  font-size: 14px;
-}
 
-.cta-btn {
-  background: orange;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 .footer-bottom {
   font-size: 12px;
@@ -526,6 +560,8 @@ html, body {
 
 
 /* end of Footer */
+
+
 
 
 
