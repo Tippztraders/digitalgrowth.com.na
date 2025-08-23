@@ -240,5 +240,85 @@ function calculateLoan() {
 }
 </script>
 
+
+
+
+
+ // Create 40 sparkles
+<script>
+ 
+  const header = document.querySelector('.hero-header');
+
+  for(let i=0; i<40; i++){
+    const sparkle = document.createElement('div');
+    sparkle.className = 'sparkle';
+    sparkle.style.top = Math.random() * 100 + '%';
+    sparkle.style.left = Math.random() * 100 + '%';
+    const size = 2 + Math.random() * 3;
+    sparkle.style.width = sparkle.style.height = size + 'px';
+    sparkle.style.opacity = 0.5 + Math.random() * 0.5;
+    sparkle.style.animationDuration = (30 + Math.random() * 20) + 's';
+    header.appendChild(sparkle);
+  }
+</script>
+ // end of Create 40 sparkles
+
+
+
+
+  
+
+
+<!-- Sparkle Script -->
+<script>
+  const header = document.querySelector('.hero-header');
+  const headerHeight = header.offsetHeight;
+  const headerWidth = header.offsetWidth;
+
+  // Define no-sparkle zone (adjust values to your logo area)
+  const noZone = {
+    top: 30,    // % from top
+    left: 30,   // % from left
+    width: 40,  // % width of zone
+    height: 40  // % height of zone
+  };
+
+  for (let i = 0; i < 40; i++) {
+    let top, left;
+    do {
+      top = Math.random() * 100;
+      left = Math.random() * 100;
+    } while (
+      top > noZone.top &&
+      top < noZone.top + noZone.height &&
+      left > noZone.left &&
+      left < noZone.left + noZone.width
+    );
+
+    const sparkle = document.createElement('div');
+    sparkle.className = 'sparkle';
+    sparkle.style.top = top + '%';
+    sparkle.style.left = left + '%';
+    const size = 2 + Math.random() * 3;
+    sparkle.style.width = sparkle.style.height = size + 'px';
+    sparkle.style.opacity = 0.5 + Math.random() * 0.5;
+    sparkle.style.animationDuration = (25 + Math.random() * 5) + 's'; <!-- 5+ -->
+    header.appendChild(sparkle);
+  }
+</script>
+<!-- end of Sparkle Script -->
+
+
+
+
+
+
+
+
+
+
+  
+
+  
 </body>
 </html>
