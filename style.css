@@ -157,6 +157,7 @@ html, body {
 
 
 
+
 /* ==================
    PAYDAY LOANS 
 ====================== */
@@ -166,16 +167,17 @@ html, body {
   padding: 40px 0px;
   background: #ffffff;
 }
-
+/* payday loan text */
 .payday h2 {
   font-size: 2rem;
-  color: #004aad;
+  color: 	#000000;
   margin-bottom: 10px;
 }
 
+/* 30% interest */
 .payday .interest {
   font-size: 1.2rem;
-  color: #ff4c4c;
+  color: #004aad;
   margin-bottom: 20px;
 }
 
@@ -189,11 +191,11 @@ html, body {
   box-shadow: none;          /* remove glow completely */
 }
 
-
+/* documents required */
 .payday .docs-title {
   font-size: 1.5rem;
   margin: 20px 0 10px;
-  color: #004aad;
+  color: black;
 }
 
 .payday .docs-list {
@@ -218,7 +220,6 @@ html, body {
   color: #004aad;
 }
 /* end of PAYDAY LOANS */
-
 
 
 
