@@ -158,6 +158,8 @@ html, body {
 
 
 
+
+
 /* ==================
    PAYDAY LOANS 
 ====================== */
@@ -173,6 +175,13 @@ html, body {
   color: 	#000000;
   margin-bottom: 10px;
 }
+
+/* end of PAYDAY LOANS */
+
+
+
+
+
 
 /* 30% interest */
 .payday .interest {
@@ -190,36 +199,36 @@ html, body {
   border-radius: 1px;        /* slight rounding for modern feel */
   box-shadow: none;          /* remove glow completely */
 }
+/* end 30% interest */
+
+
+
+
+
+
+
 
 /* documents required */
-.payday .docs-title {
-  font-size: 1.5rem;
+.docs-title {
+  text-align: center;
+  font-size: 1.8rem;
   margin: 20px 0 10px;
   color: black;
 }
 
-.payday .docs-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 400px;
+.text-container {
+  max-width: 250px;
+  margin: 0 auto 16px;
+  text-align: justify;
+  line-height: 1.5;
 }
 
-.payday .docs-list li {
-  font-size: 1rem;
-  margin: 10px 0;
-  text-align: left;
-  padding-left: 25px;
-  position: relative;
+.text-container p {
+  font-size: 1.2rem; /* larger icons/text */
 }
 
-.payday .docs-list li::before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: #004aad;
-}
-/* end of PAYDAY LOANS */
+
+/* end of documents required */
 
 
 
