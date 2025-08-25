@@ -43,10 +43,11 @@ html, body {
   overflow: hidden;
 }
 
-.happy-image img {
-  width: 100%;
-  height: auto;
+.happy-image > img {
+  max-width: 1200px;   /* matches .why-cards max-width */
+  margin: 0 auto;      /* centers the image on larger screens */
   display: block;
+  width: 100%;         /* keeps it full width on smaller screens */
 }
 
 /* Badge effect */
