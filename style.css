@@ -4,7 +4,6 @@ html, body {
   box-sizing: border-box;
 }
 
-
 /* HEADER */
 .hero-header {
   position: relative;
@@ -47,6 +46,7 @@ html, body {
 /* ==========================
   HAPPY IMAGE
 ========================== */
+
 .happy-image {
   position: relative;
   text-align: center;
@@ -54,27 +54,20 @@ html, body {
 
 .happy-image img {
   display: block;
-  max-width: 100%;  /* shrink on small screens */
-  height: auto;     /* keep proportions */
-  margin: 0 auto;   /* center */
+  max-width: 100%;   /* responsive */
+  height: auto;      /* keep natural aspect ratio */
+  margin: 0 auto;    /* center horizontally */
 }
-
-
-
-
-
 
 /* Badge effect */
 .badge {
   position: absolute;
-  top: 25%;
-  left: calc(100% - 31%); /* dynamically track image width */
-  transform: translate(-50%, -50%);
+  top: 20px;
+  right: 20px;  /* always top-right inside the image */
   background: radial-gradient(circle at top left, #FFD700, #E6B800); /* golden effect */
   color: #111;
   font-weight: bold;
   font-size: 0.8rem;
-  padding: 0px;
   border-radius: 50%;
   text-align: center;
   line-height: 1.2;
@@ -95,13 +88,12 @@ html, body {
   100% { opacity: 1; }
 }
 
-/* Responsive */
+/* Responsive badge */
 @media (max-width: 768px) {
   .badge {
     font-size: 0.7rem;
     width: 40px;
     height: 40px;
-    padding: 8px;
   }
 }
 
@@ -110,9 +102,9 @@ html, body {
     font-size: 0.8rem;
     width: 55px;
     height: 55px;
-    padding: 6px;
   }
 }
+
 /* end of HAPPY */
 
 
@@ -543,7 +535,7 @@ html, body {
 /* Apply Now Button */
 .cta-btn {
   display: inline-block;
-  background: linear-gradient(135deg, #ff7a18, #ffb347); /* 2-gradient orange */
+  background: linear-gradient(135deg, #ffb400, #FF9800); /* 2-gradient orange */
   color: #fff;
   padding: 12px 28px;
   border-radius: 30px;
@@ -563,7 +555,7 @@ html, body {
 
 /* Hover effect */
 .cta-btn:hover {
-  background: linear-gradient(135deg, #ff944d, #ffd699); /* lighter orange gradient */
+  background: linear-gradient(135deg, #ff9100); /* lighter orange gradient */
   transform: translateY(-2px); /* subtle lift */
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
@@ -604,8 +596,14 @@ html, body {
 
 
 
+.footer-middle {
+  font-size: 19px;
+  color: black;
+}
+
+
 .footer-bottom {
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 15px;
   color: #666;
 }
@@ -628,7 +626,7 @@ html, body {
   padding: 1em 1.5em;
   background: #f9f9f9;
   border-left: 4px solid #1E90FF;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #555;
   font-style: italic;
   text-align: justify;   /* justified alignment */
@@ -637,7 +635,7 @@ html, body {
 
 .disclaimer h3 {
   margin-top: 0;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-decoration: underline;
   color: #222;
@@ -656,30 +654,7 @@ html, body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  SPARKLES  */
+/* SPARKLES  */
 .hero-header {
   position: relative;
   display: inline-block;
