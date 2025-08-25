@@ -4,18 +4,18 @@ html, body {
   box-sizing: border-box;
 }
 
+
 /* HEADER */
 .hero-header {
   position: relative;
   width: 100%;
-  height: 300px;      /* adjust height or use vh for responsive */
-  overflow: hidden;
+  text-align: center;
 }
 
 .hero-header .header-bg {
   width: 100%;
-  height: 100%;
-  object-fit: cover;  /* makes sure image fills header */
+  height: auto;         /* keep natural proportions */
+  object-fit: contain;  /* show full image without cropping */
   display: block;
 }
 
