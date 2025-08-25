@@ -168,6 +168,104 @@
 
 
 
+ 
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Zamela Cashloans</p>
+  <p>P.O. Box 1245, OPNO</p>
+  <p>Contact Number: [insert number here]</p>
+</section>
+<!-- end of CONTACT -->
+
+
+
+
+
+  
+  <!-- Apply Now Button -->
+ <div class="cta-btn-container">
+  <a href="#contact" class="cta-btn">Apply Now</a>
+</div>
+   <!-- end of Apply Now Button -->
+  
+
+
+
+
+
+
+  
+  
+  <!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <a href="#top" class="back-to-top">Return to Top</a>
+  </div>
+
+  <div class="footer-middle">
+    <p>Contact us today</p>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Â© 2025 Zamela Cashloans. All rights reserved.</p>
+    <p>Website Designed by: Arroja Enterprises\Tech</p>
+  </div>
+</footer>
+<!-- end of Footer -->
+
+
+
+
+
+  
+
+
+
+<!-- DISCLAIMER -->
+<section class="disclaimer">
+  <h3>Disclaimer</h3>
+  <p>
+    Approval of applications is subject to our internal assessment criteria and responsible lending practices. We carefully review each request to ensure it meets our requirements, and we may not be able to provide funding in all cases.
+  </p>
+</section>
+
+
+<!-- end of DISCLAIMER -->
+
+
+
+
+
+
+
+
+
+
+  
+
+<!-- BASIC JS FOR LOAN CALCULATOR -->
+<script>
+function calculateLoan() {
+  let amount = parseFloat(document.getElementById('amount').value);
+  let months = parseInt(document.getElementById('months').value);
+  let interestRate = 0.30;
+
+  if (isNaN(amount) || isNaN(months) || months <= 0) {
+    document.getElementById('result').innerText = "Please enter valid values.";
+    return;
+  }
+
+  let total = amount + (amount * interestRate);
+  document.getElementById('result').innerText = `Total Repayment: N$ ${total.toFixed(2)}`;
+}
+</script>
+
+</body>
+</html>
+
+
+  
   
 
 
