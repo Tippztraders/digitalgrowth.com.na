@@ -1,7 +1,8 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 50;
+  padding: 50;
   box-sizing: border-box;
+  
 }
 
 /* HEADER */
@@ -158,8 +159,6 @@ html, body {
 
 
 
-
-
 /* ==================
    PAYDAY LOANS 
 ====================== */
@@ -229,7 +228,6 @@ html, body {
 
 
 /* end of documents required */
-
 
 
 
@@ -636,28 +634,6 @@ html, body {
 
 
 
-/*  DISCLAIMER  */
-.disclaimer {
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 1em 1.5em;
-  background: #f9f9f9;
-  border-left: 4px solid #1E90FF;
-  font-size: 0.9rem;
-  color: #555;
-  font-style: italic;
-  text-align: justify;   /* justified alignment */
-  padding-left: 2em;     /* whole block indented */
-}
-
-.disclaimer h3 {
-  margin-top: 0;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: underline;
-  color: #222;
-}
-/*  end of DISCLAIMER  */
 
 
 
@@ -709,8 +685,6 @@ html, body {
   50%      { box-shadow: 0 0 16px 6px rgba(255,255,255,1); }   /* 10px 3px */
 }
 /*  end of SPARKLES  */
-
-
 
 
 
