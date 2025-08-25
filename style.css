@@ -9,14 +9,25 @@ html, body {
 .hero-header {
   position: relative;
   width: 100%;
-  text-align: center;
+  height: 300px;      /* adjust as needed */
+  overflow: hidden;
 }
 
 .hero-header .header-bg {
   width: 100%;
-  height: auto;         /* keep natural proportions */
-  object-fit: contain;  /* show full image without cropping */
+  height: 100%;
+  object-fit: cover;  /* fills header */
   display: block;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .hero-header .header-bg {
+    width: 140%;       /* crop sides */
+    margin-left: 0; /* -20% shift image to center */
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* end of Header */
