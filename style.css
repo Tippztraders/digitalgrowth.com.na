@@ -49,22 +49,22 @@ html, body {
 /* ==========================
   HAPPY IMAGE
 ========================== */
-
 .happy-image {
   position: relative;
   text-align: center;
   display: flex;
-  justify-content: center; /* keep image centered */
+  justify-content: center;
   overflow: hidden;
+  width: 90%;
+  max-width: 1200px;   /* container won't exceed 1200px */
+  margin: 0 auto;      /* center container horizontally */
 }
 
 .happy-image img {
   display: block;
-  width: 100%;         
-  max-width: 1200px;   /* keep big size */
-  height: auto;
+  width: 100%;         /* fill the container */
+  height: auto;        /* maintain aspect ratio */
 }
-
 
 .badge {
   position: absolute;
@@ -112,8 +112,11 @@ html, body {
     height: 55px;
   }
 }
-
 /* end of HAPPY */
+
+
+
+
 
 
 
@@ -129,7 +132,7 @@ html, body {
 ========================== */
 .fast {
   background: linear-gradient(135deg, #4a90e2 0%, #71b7f0 100%);
-  color: red;    /*  color: white; */
+  color: white;    /*  color: white; */
   padding: 2em 1em;
   border-radius: 8px;
   margin: 1em auto;
