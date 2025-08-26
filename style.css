@@ -54,10 +54,13 @@ html, body {
 
 .happy-image img {
   display: block;
-  max-width: 100%;   /* responsive */
-  height: auto;      /* keep natural aspect ratio */
-  margin: 0 auto;    /* center horizontally */
+  width: 100%;         /* responsive */
+  max-width: 1200px;   /* original intended size */
+  min-width: 600px;    /* prevents it from getting too small on mobile */
+  height: auto;
+  margin: 0 auto;
 }
+
 
 .badge {
   position: absolute;
