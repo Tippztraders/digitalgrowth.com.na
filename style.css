@@ -126,7 +126,7 @@ html, body {
 ========================== */
 .fast {
   background: linear-gradient(135deg, #4a90e2 0%, #71b7f0 100%);
-  color: white;
+  color: white;    /*  color: white; */
   padding: 2em 1em;
   border-radius: 8px;
   margin: 1em auto;
