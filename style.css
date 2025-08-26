@@ -8,28 +8,29 @@ html, body {
 .hero-header {
   position: relative;
   width: 100%;
-  height: auto;          /* let the image decide the height */
   overflow: hidden;
 }
-
 
 .hero-header .header-bg {
   width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;   /* show full image without cropping */
-  margin-left: 0;        /* prevents white space on the right */
+  object-fit: contain;   /* default for desktop */
 }
 
-/* Mobile tweaks */
+/* On smaller screens: zoom/crop sides so logo looks bigger */
 @media (max-width: 768px) {
+  .hero-header {
+    height: 250px; /* adjust as needed */
+  }
   .hero-header .header-bg {
-    width: 140%;       /* crop sides */
-    margin-left: 0; /* -20% shift image to center */
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;    /* zoom in instead of shrinking */
+    object-position: center; /* keep logo centered */
   }
 }
+
 
 /* end of Header */
 
