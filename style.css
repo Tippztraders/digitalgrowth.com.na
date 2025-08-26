@@ -545,6 +545,9 @@ html, body {
   text-align: center;
   transition: all 0.3s ease;
   margin: 0 auto;
+
+  border: none;   /* remove default border */
+  outline: none;  /* remove default focus highlight */
 }
 
 /* Center container */
@@ -554,10 +557,12 @@ html, body {
 }
 
 /* Hover effect */
-.cta-btn:hover {
-  background: linear-gradient(135deg, #ff9100); /* lighter orange gradient */
+.cta-btn:hover,
+.cta-btn:focus {
+  background: linear-gradient(135deg, #ff944d); /* lighter orange gradient */
   transform: translateY(-2px); /* subtle lift */
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  color: #fff; /* keep text consistent */
 }
 
 /* end of APPLY NOW BUTTON */
