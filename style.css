@@ -126,7 +126,7 @@ html, body {
 ========================== */
 .fast {
   background: linear-gradient(135deg, #4a90e2 0%, #71b7f0 100%);
-  color: red;    /*  color: white; */
+  color: yellow;    /*  color: white; */
   padding: 2em 1em;
   border-radius: 8px;
   margin: 1em auto;
@@ -212,6 +212,36 @@ html, body {
 }
 /* end 30% interest */
 
+
+
+
+
+
+/* REMOVE AFTER TESTING */ 
+.cta-btn1 {
+  display: inline-block;
+  background: #ff7a00;          /* bright orange */
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /* grey shadow */
+}
+
+.cta-btn1:hover {
+  background: #e66900;          /* darker orange */
+  transform: translateY(-3px);  /* pop up effect */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+.cta-btn1:active {
+  transform: translateY(-1px);  /* softer press-down */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+/* REMOVE AFTER TESTING */
 
 
 
