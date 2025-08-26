@@ -50,22 +50,23 @@ html, body {
 .happy-image {
   position: relative;
   text-align: center;
+  display: flex;
+  justify-content: center; /* keep image centered */
+  overflow: hidden;
 }
 
 .happy-image img {
   display: block;
-  width: 100%;         /* responsive */
-  max-width: 1200px;   /* original intended size */
-  min-width: 600px;    /* prevents it from getting too small on mobile */
+  width: 100%;         
+  max-width: 1200px;   /* keep big size */
   height: auto;
-  margin: 0 auto;
 }
 
 
 .badge {
   position: absolute;
-  top: 25%;
-  right: 15%;  /* much simpler: track from image right edge */
+  top: 20%;
+  right: 20%;  /* much simpler: track from image right edge */
   transform: translate(-50%, -50%);
   background: radial-gradient(circle at top left, #FFD700, #E6B800); /* golden effect */
   color: #111;
@@ -110,7 +111,6 @@ html, body {
 }
 
 /* end of HAPPY */
-
 
 
 
