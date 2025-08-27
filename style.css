@@ -66,6 +66,16 @@ html, body {
   height: auto;        /* maintain aspect ratio */
 }
 
+
+@media (max-width: 768px) {
+  .happy-image {
+    width: 100%;      /* full width on mobile */
+    max-width: 100%;  /* remove desktop max-width */
+  }
+}
+
+
+
 .badge {
   position: absolute;
   top: 20%;
