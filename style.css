@@ -4,7 +4,7 @@ html, body {
   box-sizing: border-box;
 
   /* === pastel background === */
-  background: linear-gradient(180deg, #ed2828, #e6f7ff); /* (180deg, #fceaff, #e6f7ff); */
+  background: linear-gradient((180deg, #fceaff, #e6f7ff)); 
   background-attachment: fixed;
   background-size: cover;
 }
