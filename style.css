@@ -105,13 +105,13 @@ html, body {
   animation: fadeIn 1.5s ease forwards;
 }
 
-/* Fade in */
+/* Fade in 
 @keyframes fadeIn {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
 
-/* Responsive badge */
+/* Responsive badge 
 @media (max-width: 768px) {
   .badge {
     font-size: 0.7rem;
