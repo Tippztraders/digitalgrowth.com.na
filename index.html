@@ -24,15 +24,18 @@
 
   
 
-<!-- HAPPY IMAGE -->
+<!-- HAPPY IMAGE SLIDER -->
 <section class="happy-image">
-  <div class="happy-image-inner">
-    <img src="happy.jpg" alt="Happy customer holding official documents">
-    <div class="badge">
-   </div>
+  <div class="happy-image-inner slider">
+    <div class="slide">
+      <img src="happy.jpg" alt="Happy customer holding official documents">
+    </div>
+    <div class="slide">
+      <img src="happy2.jpg" alt="Another happy customer smiling">
+    </div>
+  </div>
 </section>
-<!-- end of HAPPY IMAGE -->
-
+<!-- end of HAPPY IMAGE SLIDER -->
 
 
 
@@ -320,6 +323,33 @@ function calculateLoan() {
 
 
 
+
+
+<!-- HAPPY IMAGE SLIDER -->
+<script>
+let currentIndex = 0;
+const slides = document.querySelectorAll('.happy-image-inner .slide');
+const slider = document.querySelector('.happy-image-inner');
+
+function showSlide(index) {
+  if (index >= slides.length) currentIndex = 0;
+  else if (index < 0) currentIndex = slides.length - 1;
+  else currentIndex = index;
+  
+  slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+// auto slide every 3s
+setInterval(() => {
+  showSlide(currentIndex + 1);
+}, 3000);
+</script>
+  
+<!-- HAPPY IMAGE SLIDER -->
+
+
+
+  
 
   
 </body>
